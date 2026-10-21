@@ -1,0 +1,22 @@
+Package: lab06
+Type: Package
+Title: Three algorithms for knapsack problem
+Version: 0.1.0
+Authors@R: person(
+    given = "P.Hanuvardhan",
+    email = "hanupavan065@gmail.com",
+    role = c("aut", "cre")
+    )
+Description: Implements brute-force, dynamic programming,
+    and greedy approximation for the knapsack problem. Includes
+    an optional Rcpp implementation of the greedy algorithm.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp
+SystemRequirements: C++11
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, profvis
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0

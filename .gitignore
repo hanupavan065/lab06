@@ -1,0 +1,21 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Renviron
+.Rcheck/
+*.Rcheck/
+*.tar.gz
+*.Rprof
+*.html
+*.log
+.DS_Store
+# Compiled artifacts produced locally by Rcpp/R CMD check
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.a
+src/*.def
+src/symbols.rds
+/doc/
+/Meta/

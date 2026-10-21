@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^RUN_ME_FIRST\.md$
+^\.github$
+^\.gitignore$
+^doc$
+^Meta$
